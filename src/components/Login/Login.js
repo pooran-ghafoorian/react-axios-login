@@ -52,8 +52,6 @@ class Login extends Component{
         localStorage.setItem('users' , JSON.stringify(data1));
         this.props.history.push('/panelAdmin');
     }
- 
-
 
     render(){
         return(
