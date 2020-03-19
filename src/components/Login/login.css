@@ -1,0 +1,14 @@
+.Login{width: 300px; border-radius:2em;	padding: 40px;margin: 100px auto;	background: #ab0a7c;direction: rtl;text-align:right;}
+.button{
+   border-radius: 0.5em;
+    width: 100%;
+    padding: 5px;
+    background-color: rosybrown;
+    text-decoration: none;
+}
+.nav li{
+    float: right;
+}
+.header .nav a{
+    padding: 10px ;
+}
