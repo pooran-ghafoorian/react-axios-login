@@ -21,25 +21,26 @@ function App() {
       
 
       <div className="App">
-        <div className="header">    
+        <div className="header">
             <nav className="nav">
                <ul>
                    <li><a href ="/">ورود</a></li>
                    <li><a href ="/">درباره ما</a></li>
                    <li><a href ="/">تماس با ما</a></li>
-                   {Loginuser && Loginuser['token'] && <li><a href ="/panelAdmin">پنل ادمین</a></li>}
+                   {Loginuser && Loginuser['token'] && <li><a href ="/pageAdmin">پنل ادمین</a></li> && <label className="lbadmin">آقای /خانم مدیر </label>}
             
-                </ul>
+               </ul>
             </nav>
         </div>    
         
 
 
         <Switch>
-          <Route path="/" exact component={Login}/>
+          
           <Route path="/panelAdmin" exact component={Admin}/>
           <Route path="/pageAdmin" exact component={pageadmin}/>
           <Route path="/users" exact component={Users}/>
+          <Route  component={Login}/>
        </Switch>
 
       </div>

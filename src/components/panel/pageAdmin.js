@@ -7,14 +7,14 @@ class pageadmin extends Component{
         return(
             <div className="pageadmin">
                 <div className="right">
-                   <nan>
+                   <nav>
                          <ul>
                            <li><a href='./users'>لیست کاربران</a> </li>
                             <li>تصاویر</li>
                               <li>لیست کاربران</li>
                             <li>تصاویر</li>
                         </ul>
-                     </nan> 
+                     </nav> 
                 </div>
                 <div className="left">
                     <div className='leftpanelhead'>به پنل ادمین خوش آمدید</div>

@@ -10,7 +10,7 @@ class Admin extends Component {
 
             <div className="paneladmin">
                 <BrowserRouter>
-                    <a href="/pageAdmin">صفحه مدیریت</a>
+                    
 
                     <switch>
                         <Route path="/pageAdmin" exact component={pageadmin} />

@@ -20,9 +20,9 @@ class Users extends Component{
     getlist = () => {
         //https://jsonplaceholder.typicode.com/posts
         axios.get('https://reqres.in/api/users?page=2')
-            .then(Response => {
+            .then(response => {
                 this.setState(oldstate => ({
-                    ...oldstate, users: Response.data.data
+                    ...oldstate, users: response.data.data
                 })
                 );
             })

@@ -1,14 +1,10 @@
-.Login{width: 300px; border-radius:2em;	padding: 40px;margin: 100px auto;	background: #ab0a7c;direction: rtl;text-align:right;}
+.Login{width:300px; border-radius:0.2em;padding:40px;margin:150px auto;background:rgb(99, 124, 116);;direction: rtl;text-align:right;}
 .button{
-   border-radius: 0.5em;
+   border-radius: 0.4em;
     width: 100%;
     padding: 5px;
-    background-color: rosybrown;
+    background-color: rgb(93, 91, 110);
     text-decoration: none;
 }
-.nav li{
-    float: right;
-}
-.header .nav a{
-    padding: 10px ;
-}
+.nav li{float: right;margin-top:0px;}
+.header .nav a{padding: 10px;}
