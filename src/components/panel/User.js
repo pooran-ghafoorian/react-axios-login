@@ -6,13 +6,13 @@ export default function User({user}){
         <div className="listuser">
             <table className='tb'>
                 <td>
-                    <tr>{ user.id }</tr>
+                    <tr>{ user.id }<label>:کدملی</label></tr>
                 </td>
                 <td>  
-                    <tr>{ user.first_name }</tr>
+                    <tr>{ user.first_name }<label>:نام کاربری</label></tr>
                 </td>
                 <td>  
-                    <tr>{ user.email }</tr>
+                    <tr>{ user.email }<label>:ایمیل</label></tr>
                 </td>
             </table>
         </div>

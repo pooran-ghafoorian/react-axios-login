@@ -1,20 +1,20 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import './pageAdmin.css';
 
-class pageadmin extends Component{
-    render(){
-        return(
+class pageadmin extends Component {
+    render() {
+        return (
             <div className="pageadmin">
                 <div className="right">
-                   <nav>
-                         <ul>
-                           <li><a href='./users'>لیست کاربران</a> </li>
+                    <nav>
+                        <ul>
+                            <li><a href='./users'>لیست کاربران</a> </li>
                             <li>تصاویر</li>
-                              <li>لیست کاربران</li>
+                            <li>لیست کاربران</li>
                             <li>تصاویر</li>
                         </ul>
-                     </nav> 
+                    </nav>
                 </div>
                 <div className="left">
                     <div className='leftpanelhead'>به پنل ادمین خوش آمدید</div>
@@ -22,7 +22,7 @@ class pageadmin extends Component{
 
 
                 </div>
-                
+
 
             </div>
 
