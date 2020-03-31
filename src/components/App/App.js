@@ -20,11 +20,13 @@ function App() {
     <BrowserRouter>
 
       <div className="App">
-        <div className="logo">
+        {/* <div className="logo">
+            <a href="#">
+            <img src='logo69.png' /> */
           <a href="#">
-            <h2>Logo</h2>
-          </a>
-        </div>
+            {<div className="mylogo"></div>}
+          </a>/*
+        </div> */}
         <nav className="menudiv">
           <ul>
             <li><a href="/">ورود</a></li>
